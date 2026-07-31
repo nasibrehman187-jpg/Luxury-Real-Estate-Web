@@ -35,6 +35,7 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} dir={dir} className="dark">
       <head>
+        <meta name="google-site-verification" content="google7291d6ac8f4f90ed" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
