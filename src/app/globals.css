@@ -1,0 +1,105 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Tajawal:wght@300;400;500;700&display=swap');
+
+:root {
+  --color-neoma-black: #0B0B0B;
+  --color-neoma-gold: #D4AF37;
+  --color-neoma-bronze: #9A7B1C;
+  --color-neoma-ivory: #F5F5F0;
+  --color-neoma-emerald: #0F8A6C;
+
+  --font-playfair: 'Playfair Display', serif;
+  --font-inter: 'Inter', sans-serif;
+  --font-amiri: 'Amiri', serif;
+  --font-tajawal: 'Tajawal', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-neoma-black);
+  color: var(--color-neoma-ivory);
+}
+
+body {
+  background-color: var(--color-neoma-black);
+  color: #F5F5F0;
+  font-family: var(--font-inter);
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+/* RTL Specific typography overrides */
+[dir="rtl"] body {
+  font-family: var(--font-tajawal);
+}
+
+[dir="rtl"] h1, [dir="rtl"] h2, [dir="rtl"] h3, [dir="rtl"] h4 {
+  font-family: var(--font-amiri);
+}
+
+/* Luxury Glassmorphism Utilities */
+.glass-panel {
+  background: rgba(18, 18, 18, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(212, 175, 55, 0.15);
+}
+
+.glass-panel-hover {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-panel-hover:hover {
+  background: rgba(26, 26, 26, 0.85);
+  border-color: rgba(212, 175, 55, 0.4);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), 0 0 20px rgba(212, 175, 55, 0.15);
+  transform: translateY(-4px);
+}
+
+.text-gold-gradient {
+  background: linear-gradient(135deg, #F3E5AB 0%, #D4AF37 50%, #9A7B1C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-gold-gradient {
+  border-image: linear-gradient(135deg, #D4AF37 0%, #9A7B1C 100%) 1;
+}
+
+/* Shimmer Skeletal Loading */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.skeleton-shimmer {
+  background: linear-gradient(90deg, #1A1A1A 25%, #2A2A2A 50%, #1A1A1A 75%);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite ease-in-out;
+}
+
+/* Custom Luxury Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0B0B0B;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #262626;
+  border-radius: 4px;
+  border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}

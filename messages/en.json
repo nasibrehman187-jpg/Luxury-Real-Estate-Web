@@ -1,0 +1,131 @@
+{
+  "Brand": {
+    "name": "NEOMA Residences",
+    "tagline": "Crafting Iconic Spaces for Extraordinary Lives",
+    "promise": "Where Architecture Becomes Legacy"
+  },
+  "Nav": {
+    "home": "Home",
+    "developments": "Developments",
+    "properties": "Residences",
+    "lifestyle": "Lifestyle",
+    "investment": "Investment",
+    "vision": "Vision 2030",
+    "contact": "Contact",
+    "scheduleTour": "Schedule Private Tour",
+    "admin": "Admin"
+  },
+  "Hero": {
+    "badge": "Saudi Arabia’s Premier Luxury Developer",
+    "headline": "Where Architecture Becomes Legacy",
+    "subheadline": "Discover exceptional residences designed for visionary living in the heart of Saudi Arabia.",
+    "ctaPrimary": "Explore Residences",
+    "ctaSecondary": "Schedule a Private Tour",
+    "scrollExplore": "Scroll to Explore"
+  },
+  "Developments": {
+    "badge": "Signature Masterplans",
+    "title": "Iconic Developments Across the Kingdom",
+    "subtitle": "Immerse yourself in world-class architectural landmarks designed to shape the future of luxury living.",
+    "startingFrom": "Starting from",
+    "viewMasterplan": "Explore Masterplan",
+    "viewAll": "View All Developments"
+  },
+  "Lifestyle": {
+    "badge": "Unrivaled Amenities",
+    "title": "The Art of Refined Living",
+    "subtitle": "Curated experiences and bespoke services reserved exclusively for NEOMA residents.",
+    "infinityPool": "Floating Sky Pools",
+    "wellnessSpa": "Hammam & Wellness Spa",
+    "privateCinema": "IMAX Private Cinema",
+    "smartHome": "AI Smart Home Automation",
+    "rooftopGardens": "Botanical Rooftop Sanctuaries",
+    "concierge": "24/7 Royal Concierge",
+    "fineDining": "Private Michelin Dining",
+    "marina": "Deepwater Private Marina",
+    "businessLounge": "Executive Business Club"
+  },
+  "Explorer": {
+    "badge": "Curated Portfolio",
+    "title": "Private Residence Explorer",
+    "subtitle": "Filter and discover hand-crafted villas, sky penthouses, and royal estates.",
+    "allTypes": "All Categories",
+    "penthouses": "Penthouses",
+    "villas": "Villas",
+    "apartments": "Apartments",
+    "commercial": "Commercial",
+    "commercials": "Commercial",
+    "bedrooms": "Bedrooms",
+    "bathrooms": "Bathrooms",
+    "area": "Area (sq.m)",
+    "price": "Price",
+    "viewDetails": "View Residence",
+    "quickView": "Quick View",
+    "addToFavorites": "Bookmark",
+    "removeFromFavorites": "Saved"
+  },
+  "Investment": {
+    "badge": "Financial Intelligence",
+    "title": "Capital Growth & Mortgage Calculator",
+    "subtitle": "Model your projected returns and financing options backed by Saudi Vision 2030 market insights.",
+    "propertyPrice": "Residence Value",
+    "downPayment": "Down Payment (%)",
+    "loanTenure": "Financing Tenure (Years)",
+    "interestRate": "Profit Rate (%)",
+    "expectedYield": "Estimated Annual Yield",
+    "projectedRoi": "Projected 5-Year Capital Growth",
+    "monthlyPayment": "Estimated Monthly Financing",
+    "requestReport": "Request Investment Prospectus"
+  },
+  "Vision": {
+    "badge": "Saudi Vision 2030",
+    "title": "Architectural Harmony & Sustainability",
+    "subtitle": "Leading the Kingdom's transition towards ultra-sustainable luxury and futuristic urban sanctuaries.",
+    "pillar1Title": "Zero-Carbon Design",
+    "pillar1Desc": "Solar microgrids, passive thermal facades, and zero-waste water reclamation systems.",
+    "pillar2Title": "Najdi Heritage Fusion",
+    "pillar2Desc": "Honoring 300 years of Saudi cultural craft integrated into cutting-edge parametric architecture.",
+    "pillar3Title": "Future-Proof Smart Tech",
+    "pillar3Desc": "Integrated AI automation and bi-directional EV charging infrastructure."
+  },
+  "Location": {
+    "badge": "Strategic Destinations",
+    "title": "Prime Locations Across Saudi Arabia",
+    "subtitle": "From the soaring heights of KAFD Riyadh to the pristine shores of the Red Sea coast.",
+    "riyadh": "Riyadh — KAFD & Diriyah",
+    "redsea": "Red Sea Coastal Region",
+    "jeddah": "Jeddah Corniche Waterfront"
+  },
+  "Testimonials": {
+    "badge": "Client Stories",
+    "title": "Endorsed by Global Visionaries",
+    "subtitle": "Hear from royal family members, international investors, and business leaders who call NEOMA home."
+  },
+  "Consultation": {
+    "badge": "Private Advisory",
+    "title": "Schedule a Private Consultation",
+    "subtitle": "Connect with a senior NEOMA luxury advisor for bespoke property selection and private viewings.",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "propertyInterest": "Residence / Development Interest",
+    "preferredDate": "Preferred Date",
+    "message": "Special Requests",
+    "submit": "Request Private Tour",
+    "submitting": "Processing Request...",
+    "success": "Your request has been received. A senior advisor will contact you shortly.",
+    "whatsAppNotice": "Prefer instant messaging? Connect directly via WhatsApp."
+  },
+  "AIConcierge": {
+    "title": "NEOMA AI Luxury Concierge",
+    "welcome": "Welcome to NEOMA Residences. How may I assist your luxury property discovery today?",
+    "inputPlaceholder": "Ask about developments, ROI, or schedule a tour...",
+    "limitReached": "You have reached the maximum conversation length. Please schedule a private consultation with our advisory team.",
+    "connectConsultant": "Connect with Advisor"
+  },
+  "Footer": {
+    "rights": "All rights reserved. NEOMA Residences is a registered trademark.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions"
+  }
+}
