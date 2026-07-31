@@ -7,6 +7,11 @@ const intlMiddleware = createMiddleware(routing);
 export default async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
+  // Bypass i18n middleware for static HTML verification files
+  if (pathname.endsWith('.html') || pathname.includes('google')) {
+    return NextResponse.next();
+  }
+
   // Admin route protection check
   if (pathname.includes('/admin')) {
     const supabaseToken = request.cookies.get('sb-access-token')?.value || request.cookies.get('sb-auth-token')?.value;
